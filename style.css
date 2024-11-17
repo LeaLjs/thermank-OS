@@ -1,0 +1,85 @@
+body{
+    background-image: url(linux\ wallpaper.jpg);background-size: cover;
+   
+    background-repeat: no-repeat;
+
+}
+#task-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Altura da barra, ajuste conforme necessário */
+    background-color: #080f50; /* Cor de fundo da barra */
+    display: flex;
+    justify-content: space-around; /* Distribui os itens igualmente */
+    align-items: center;
+    color: #fff;
+}
+
+#options >ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav#the-bar{
+    
+    border: -10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#apps{
+  flex: 1;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+#apps > ul{
+    list-style-type: none;
+    display: flex;
+
+}
+#app-icon{
+    width: 27px;
+    padding: 2px;
+    margin: 2px;
+}
+#app-icon1{
+    width: 35px;
+    padding: 2px;
+    margin: 2px;
+}
+#app-icon2{
+    width: 45px;
+    padding: 2px;
+    margin: 2px;
+}
+.app:hover{
+    background-color: rgb(33, 30, 30);
+}
+
+#info{
+    display: flex;
+    align-items: end;
+
+}
+
+#info > ul#horario{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+#info > ul#data{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
